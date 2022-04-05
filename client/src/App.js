@@ -1,9 +1,13 @@
+import BanNav from './Components/BanNav/BanNav';
+
 import './App.css';
+import ProductsGrid from './Components/ProductsGrid/ProductsGrid';
 
 function App() {
   return (
     <div className="App">
-      <h1>Henry Food</h1>
+      <BanNav />
+      <ProductsGrid />
     </div>
   );
 }
