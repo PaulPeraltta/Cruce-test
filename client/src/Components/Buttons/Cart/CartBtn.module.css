@@ -1,0 +1,12 @@
+.btnCart {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 2px #76B043 solid;
+    background-color: transparent
+}
+
+@media (max-width: 480px) {
+    .btnCart {
+        display: none;
+    }
+}
