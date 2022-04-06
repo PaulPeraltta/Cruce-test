@@ -1,8 +1,38 @@
+.image{
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-image: url("https://imgur.com/lhjyKV4.png");
+}
+
 .btnCart {
+    display:flex;
     padding: 8px 12px;
     border-radius: 5px;
     border: 2px #76B043 solid;
-    background-color: transparent
+    background-color: transparent;
+    outline: none !important;
+}
+
+.btnCart:hover {
+    width: 130px;
+    background-color: #76B043;
+}
+
+.btnCart:hover .image{
+    background-image: url("https://imgur.com/wvqIFJK.png");
+}
+
+.btnCart:hover .text {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 12px;
+    color: white;
+}
+
+.text {
+    display: none
 }
 
 @media (max-width: 480px) {

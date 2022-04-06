@@ -5,6 +5,8 @@ import s from "./ProductsGrid.module.css";
 
 export default function ProductsGrid() {
   return (
+    <>
+    { api.length > 0 ?
     <div className={s.productsGrid}>
       {api.map((f) => (
         <ProductCard image={f.image}
@@ -15,6 +17,11 @@ export default function ProductsGrid() {
         stock={f.stock}
         discount={f.discount}    
       />))}
+    </div> : 
+    <div style={{display: "flex", justifyContent:"center", marginBottom: "30px"}}>
+      <p>No hay productos para mostrar en este momento</p>
     </div>
+      }
+    </>
   );
 }

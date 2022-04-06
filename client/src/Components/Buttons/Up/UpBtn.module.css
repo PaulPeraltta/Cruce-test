@@ -1,0 +1,58 @@
+.button {
+    width: 120px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    background-color: #FDB913;
+    position: fixed;
+    bottom: 0;
+    right: 80px;
+}
+
+.image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://imgur.com/ESSMMT6.png");
+}
+
+.text {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.button:hover .image{
+    background-image: url("https://imgur.com/620guOZ.png");
+}
+
+.button:hover .text {
+    color: #FDB913;
+}
+
+@media (max-width: 480px) {
+    .button {
+        right: 35%;
+        /* left: 25%; */
+    }
+
+    .button:hover {
+        background-color: #FDB913;
+       
+    }
+
+    .button:hover .image {
+        background-image: url("https://imgur.com/ESSMMT6.png");
+    }
+
+    .button:hover .text {
+        color: black;
+    }
+}

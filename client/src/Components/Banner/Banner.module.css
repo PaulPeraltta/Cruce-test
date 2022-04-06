@@ -45,6 +45,23 @@
     border: 2px solid #F0F0F0;
     border-radius: 2px;
     color: #505050;
+    outline-color: #F26522;
+}
+
+.selectOrder:hover {
+    color: black;
+}
+.selectOrder:active {
+    color: #F26522;
+}
+
+.juguetes:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.juguetes:active {
+    color: #F26522;
 }
 
 @media (max-width: 480px) {

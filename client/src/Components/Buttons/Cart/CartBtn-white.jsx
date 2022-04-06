@@ -4,9 +4,13 @@ import s from "./CartBtn.module.css";
 export default function CartBtn() {
   return (
     <button className={s.btnCart}>
-        <div style={{ width: "26px", height: "24px", paddingTop: "2px" }} className={s.image}>
-        </div>
-      <p className={s.text}>Agregar</p>
+      <span>
+        <img
+          style={{ width: "26px" }}
+          src="https://imgur.com/wvqIFJK.png"
+          alt="cart-white"
+        />
+      </span>
     </button>
   );
 }

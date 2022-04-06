@@ -7,7 +7,7 @@ export default function Banner() {
     <div className={s.container}>
         <img className={s.banner} src={banner} alt="banner" />
         <div className={s.miniNav}>
-            <p className={s.text}>Inicio  /  Juguetes  / <b>Funko Pop</b></p>
+            <p className={s.text}><span className={s.juguetes}>Inicio</span>  /  <span className={s.juguetes}>Juguetes</span>  / <b>Funko Pop</b></p>
             <select className={s.selectFilter}>
                 <option value="" disabled selected>Filtrar</option>
                 <option>2</option>

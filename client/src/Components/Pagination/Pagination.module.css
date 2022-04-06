@@ -1,0 +1,51 @@
+.arrow {
+    border: 0.5px #F0F0F0 solid;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.pageLinkArrow{
+    display: flex;
+    align-content: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.pageLink{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    border: none;
+    color: #8C8C8C;
+    font-weight: bold;
+    padding: 4px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pageLink:hover {
+    color: black;
+    text-decoration: none;
+}
+.pageLink:active {
+    color: #F26522;
+}
+
+.selectedPage{
+    border: 2px solid #F26522;
+    color: black;
+    border-radius: 13px;
+    padding: 6px 13px;
+}
+
+@media (max-width: 480px) {
+    .list {
+        margin-bottom: 70px;
+    }
+}
