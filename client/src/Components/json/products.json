@@ -1,0 +1,84 @@
+
+[
+	{
+		"image": "https://imgur.com/V72OTQc.png",
+		"category": "Funko",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+		"term": "6",
+		"price": "2390",
+		"stock": true,
+		"discount": 0
+	},
+	{
+		"image": "https://imgur.com/0LwGxTn.png",
+		"category": "Funko",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+		"term": "6",
+		"price": "2390",	
+		"stock": true,
+		"discount": 50
+	},
+	{
+		"image": "https://imgur.com/VibyGbs.png",
+		"category": "Funko",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+		"term": "12",
+		"price": "2390",	
+		"stock": false,	
+		"discount": 25
+	},
+	{
+		"image": "https://imgur.com/VibyGbs.png",
+		"category": "Funko",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+		"term": "12",
+		"price": "2390",	
+		"stock": true,	
+		"discount": 0
+	},
+	{
+		"image": "https://imgur.com/V72OTQc.png",
+		"category": "Funko",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+		"term": "3",
+		"price": "2390",
+		"stock": true,
+		"discount": 10
+	},
+	{
+		"image": "https://imgur.com/0LwGxTn.png",
+		"category": "Funko",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+		"term": "12",
+		"price": "2390",	
+		"stock": true,
+		"discount": 12
+	},
+	{
+		"image": "https://imgur.com/V72OTQc.png",
+		"category": "Funko",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+		"term": "6",
+		"price": "2390",
+		"stock": true,
+		"discount": 15
+	},
+	{
+		"image": "https://imgur.com/0LwGxTn.png",
+		"category": "Funko",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+		"term": "9",
+		"price": "2390",	
+		"stock": true,	
+		"discount": 0
+	},
+	{
+		"image": "https://imgur.com/VibyGbs.png",
+		"category": "Funko",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+		"term": "12",
+		"price": "2390",	
+		"stock": false,	
+		"discount": 0
+	}
+]
