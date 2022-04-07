@@ -12,7 +12,8 @@
 }
 
 .image {
-    width: inherit;
+    width: 360px;
+    height: 438px;
 }
 
 .discountImage {
@@ -88,8 +89,9 @@
     }
 
     .image {
-        width: 85%;
-        /* height: max-content; */
+        width: 40vw;
+        height: 200px
+        /* height: inherit; */
     }
 
     .name {

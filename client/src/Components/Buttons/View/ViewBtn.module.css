@@ -7,6 +7,16 @@
     color: #000000;
     font-weight: 800;
     box-shadow: 3px 3px 0px 0px rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none !important;
+}
+
+.btnView:hover {
+    background-color: #F26522;
+    color: white;
+    box-shadow: none;
+    padding: 13px 19px;
+    border: none;
 }
 
 @media (max-width: 480px) {

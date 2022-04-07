@@ -34,6 +34,7 @@
     font-size: 15px;
     text-align: center;
     padding: 0 5px 0 0;
+    cursor: pointer;
 }
 
 .selectOrder {
@@ -45,6 +46,24 @@
     border: 2px solid #F0F0F0;
     border-radius: 2px;
     color: #505050;
+    outline-color: #F26522;
+    cursor: pointer;
+}
+
+.selectOrder:hover {
+    color: black;
+}
+.selectOrder:active {
+    color: #F26522;
+}
+
+.juguetes:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.juguetes:active {
+    color: #F26522;
 }
 
 @media (max-width: 480px) {
