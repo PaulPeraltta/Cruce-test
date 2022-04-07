@@ -1,26 +1,27 @@
 import "./App.css";
-import Banner from "./Components/Banner/Banner";
-import ProductsGrid from "./Components/ProductsGrid/ProductsGrid";
-import Pagination from "./Components/Pagination/Pagination";
-import UpBtn from "./Components/Buttons/Up/UpBtn";
-import NavBar from "./Components/NavBar/NavBar";
 import { Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
+import Home from "./Visual/Home";
+import Form from "./Components/Form/Form";
+import Edit from "./Components/Edit/Edit";
+import NavBar from "./Components/NavBar/NavBar"
 import Catalog from "./Components/Catalog/Catalog";
+
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route exact path="/">
-          <NavBar />
-          <Banner />
-          <ProductsGrid />
-          <Pagination />
-          <UpBtn />
-        </Route>
-      </Routes>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <NavBar />
+        <Routes>
+          <Route path="/add" element={<Form />} />
+          <Route path="/edit/:id" element={<Edit />} />
+          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

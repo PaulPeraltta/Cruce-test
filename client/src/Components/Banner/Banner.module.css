@@ -34,6 +34,7 @@
     font-size: 15px;
     text-align: center;
     padding: 0 5px 0 0;
+    cursor: pointer;
 }
 
 .selectOrder {
@@ -46,6 +47,7 @@
     border-radius: 2px;
     color: #505050;
     outline-color: #F26522;
+    cursor: pointer;
 }
 
 .selectOrder:hover {

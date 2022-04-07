@@ -36,7 +36,7 @@ export default function ProductCard({
 
 
 
-          {stock === true && discount > 0 ? (
+          {stock > 0 && discount > 0 ? (
             <>
               <p className={s.term}>{term} Cuotas s/interés de</p>
               <h5>
@@ -60,7 +60,7 @@ export default function ProductCard({
           )
           
           
-           : stock === true && discount === 0 ? (
+           : stock > 0 && discount === 0 ? (
             <>
               <p className={s.term}>{term} Cuotas s/interés de</p>
               <h5>
@@ -78,7 +78,7 @@ export default function ProductCard({
               Final: <b className={s.noStock}>Articulo sin stock</b>
             </p>
           )}
-              {stock === true ? 
+              {stock > 0 ? 
                 <CartBtn />  
                 :
                 <ViewBtn />      

@@ -1,84 +1,93 @@
 
 [
 	{
+		"id": "1",
 		"image": "https://imgur.com/V72OTQc.png",
 		"category": "Funko",
 		"name": "Funko POP | Game Of Thrones - Daenerys 25",
 		"term": "6",
 		"price": "2390",
-		"stock": true,
+		"stock": 38,
 		"discount": 0
 	},
 	{
+		"id": "2",
 		"image": "https://imgur.com/0LwGxTn.png",
 		"category": "Funko",
 		"name": "Funko POP | Game Of Thrones - Daenerys 25",
 		"term": "6",
 		"price": "2390",	
-		"stock": true,
+		"stock": 10,
 		"discount": 50
 	},
 	{
+		"id": "3",
 		"image": "https://imgur.com/VibyGbs.png",
 		"category": "Funko",
 		"name": "Funko POP | Game Of Thrones - Daenerys 25",
 		"term": "12",
 		"price": "2390",	
-		"stock": false,	
+		"stock": 0,	
 		"discount": 25
 	},
 	{
+		"id": "4",
 		"image": "https://imgur.com/VibyGbs.png",
 		"category": "Funko",
 		"name": "Funko POP | Game Of Thrones - Daenerys 25",
 		"term": "12",
 		"price": "2390",	
-		"stock": true,	
+		"stock": 50,	
 		"discount": 0
 	},
 	{
+		"id": "5",
 		"image": "https://imgur.com/V72OTQc.png",
 		"category": "Funko",
 		"name": "Funko POP | Game Of Thrones - Daenerys 25",
 		"term": "3",
 		"price": "2390",
-		"stock": true,
+		"stock": 120,
 		"discount": 10
 	},
 	{
+		"id": "6",
 		"image": "https://imgur.com/0LwGxTn.png",
 		"category": "Funko",
 		"name": "Funko POP | Game Of Thrones - Daenerys 25",
 		"term": "12",
 		"price": "2390",	
-		"stock": true,
+		"stock": 2,
 		"discount": 12
 	},
 	{
+		"id": "7",
 		"image": "https://imgur.com/V72OTQc.png",
 		"category": "Funko",
 		"name": "Funko POP | Game Of Thrones - Daenerys 25",
 		"term": "6",
 		"price": "2390",
-		"stock": true,
+		"stock": 5,
 		"discount": 15
 	},
 	{
+		"id": "8",
 		"image": "https://imgur.com/0LwGxTn.png",
 		"category": "Funko",
 		"name": "Funko POP | Game Of Thrones - Daenerys 25",
 		"term": "9",
 		"price": "2390",	
-		"stock": true,	
+		"stock": 0,	
 		"discount": 0
 	},
 	{
+		"id": "9",
 		"image": "https://imgur.com/VibyGbs.png",
 		"category": "Funko",
 		"name": "Funko POP | Game Of Thrones - Daenerys 25",
 		"term": "12",
 		"price": "2390",	
-		"stock": false,	
+		"stock": 0,	
 		"discount": 0
 	}
 ]
