@@ -6,3 +6,9 @@
     background-color: rgb(230, 230, 230);
     cursor: pointer;
 }
+
+.noProductText {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}

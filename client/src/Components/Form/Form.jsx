@@ -96,7 +96,7 @@ export default function Form() {
               <div>
                 <h1>Nuevo producto</h1>
                 <div className={s.posInputs}>
-                  <div>
+                  <div className={s.subPosInputs}>
                     <div className={s.labelInput}>
                       <label>Nombre del producto *</label>
                       <input
@@ -142,7 +142,7 @@ export default function Form() {
                     />
                   </div>
                   </div>
-                  <div>
+                  <div className={s.subPosInputs}>
                     <div className={s.labelInput}>
                       <label>Categoria *</label>
                       <input

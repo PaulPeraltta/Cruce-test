@@ -10,7 +10,7 @@ export default function Pagination() {
               <ul className={s.list}>
                 <li className={s.arrow}>
                     <a className={s.pageLinkArrow} href="#" >
-                        <img style={{width: "16px"}} src={left} alt="left-arrow"/>
+                        <img className={s.image} src={left} alt="left-arrow"/>
                     </a>
                 </li>
                 <li><a className={s.pageLink} href="#">4</a></li>
@@ -20,7 +20,7 @@ export default function Pagination() {
                 <li><a className={s.pageLink} href="#">8</a></li>
                 <li className={s.arrow}>
                     <a className={s.pageLinkArrow} href="#">
-                        <img style={{width: "16px"}} src={right} alt="right-arrow" />
+                        <img className={s.image} src={right} alt="right-arrow" />
                     </a>
                 </li>
              </ul>

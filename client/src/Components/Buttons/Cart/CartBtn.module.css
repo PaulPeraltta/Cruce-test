@@ -1,11 +1,14 @@
-.image{
+.image {
+    width: 26px;
+    height: 24px;
+    padding-top: 2px;
     background-size: 26px;
     background-repeat: no-repeat;
     background-image: url("https://imgur.com/lhjyKV4.png");
 }
 
 .btnCart {
-    display:flex;
+    display: flex;
     padding: 8px 12px;
     border-radius: 5px;
     border: 2px #76B043 solid;
@@ -18,7 +21,7 @@
     background-color: #76B043;
 }
 
-.btnCart:hover .image{
+.btnCart:hover .image {
     background-image: url("https://imgur.com/wvqIFJK.png");
 }
 

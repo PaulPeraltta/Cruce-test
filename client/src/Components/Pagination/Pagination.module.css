@@ -9,6 +9,10 @@
     align-content: center;
 }
 
+.image{
+    width: 16px;
+}
+
 .list {
     display: flex;
     justify-content: center;

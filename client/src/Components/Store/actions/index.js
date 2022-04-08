@@ -4,6 +4,7 @@ export const GET_PRODUCT = 'GET_PRODUCT';
 export const GET_PRODUCTS = 'GET_PRODUCTS';
 export const POST_PRODUCT = 'POST_PRODUCT';
 export const DELETE_PRODUCT = 'DELETE_PRODUCT';
+export const ORDER_PRODUCTS = 'ORDER_PRODUCTS';
 
 
 export function getProducts() {
@@ -72,3 +73,12 @@ export function deleteProduct(id) {
         .catch((e) => console.log(e))
     }
 } 
+
+// ----------------------------------------------------------------------
+
+export function orderProducts(order) {
+    return {
+        type: ORDER_PRODUCTS,
+        payload: order
+    }
+}
