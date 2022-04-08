@@ -13,7 +13,7 @@ export default function ProductCard({
   discount,
 }) {
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
+    <div className={s.card}>
       <div className={s.container}>
             <div className={s.imageCont}>
               <img className={s.image} src={image} alt="funko" />

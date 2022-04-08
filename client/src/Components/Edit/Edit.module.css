@@ -61,6 +61,15 @@
     background-color: #e3e3e3d2;
 }
 
+.btnCont {
+    margin-top: 25px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    width: max-content;
+}
+
 .btn {
     margin: 10px 0 10px 15px;
 
@@ -74,5 +83,46 @@
 @media (max-width: 480px) {
     .formCont {
         flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .title {
+        margin-top: 25px;
+        font-size: 26px;
+    }
+
+    .posInputs {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        gap: 10px
+    }
+
+    .subPosInputs {
+        display: flex;
+        padding: 0 50px;
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        gap: 10px
+    }
+
+    .labelInput {
+        width: 100%;
+        margin: 0;
+    }
+
+    .btnCont {
+        margin-left: 0;
+        display: flex;
+        width: auto;
+        margin-bottom: 20px
+    }
+
+    .btn {
+        margin: 0;
     }
 }

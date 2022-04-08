@@ -31,7 +31,7 @@ export default function Edit() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const product = useSelector((state) => state.product);
-  
+
   const [productId, setProduct] = useState({
     name: "",
     image: "",
@@ -113,9 +113,9 @@ export default function Edit() {
             />
             <div className={s.divText}>
               <div>
-                <h1>Actualizacion de producto</h1>
-                <div className={s.posInputs}>
-                  <div>
+                <h1 className={s.title}>Actualizacion de producto</h1>
+                <div className={s.posInputs} >
+                  <div className={s.subPosInputs}>
                     <div className={s.labelInput}>
                       <label>Nombre del producto *</label>
                       <input
@@ -125,7 +125,7 @@ export default function Edit() {
                             : `form-control`
                         }
                         onChange={onInputChange}
-                        value={productId.name ? productId.name : product.name}
+                        value={productId.name}
                         type="text"
                         name="name"
                         placeholder="FunkoPop 2022"
@@ -140,7 +140,7 @@ export default function Edit() {
                             : "form-control"
                         }
                         onChange={onInputChange}
-                        value={product.image}
+                        value={productId.image}
                         type="url"
                         name="image"
                         placeholder="https://.png"
@@ -177,7 +177,7 @@ export default function Edit() {
                       />
                     </div>
                   </div>
-                  <div>
+                  <div div className={s.subPosInputs}>
                     <div className={s.labelInput}>
                       <label>Categoria *</label>
                       <input
@@ -223,7 +223,7 @@ export default function Edit() {
                         placeholder="0 - 100"
                       />
                     </div>
-                    <div style={{marginTop: "25px", marginLeft: "5%", display: "flex", justifyContent: "end", gap: "10px", width: "max-content"}}>
+                    <div className={s.btnCont} >
                       <button
                         onClick={(e) => onBack(e)}
                         className={`${s.btn} btn btn-light`}

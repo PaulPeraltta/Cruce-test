@@ -45,7 +45,7 @@ export default function Catalog() {
                   {products.map((p) => (
                     <tr key={p.id}>
                       <td>
-                        <a href="form.html">{p.name}</a>
+                        <a>{p.name}</a>
                       </td>
                       <td>${p.price}</td>
                       <td className="text-right">
@@ -66,13 +66,7 @@ export default function Catalog() {
                   ))}
                 </>
               ) : (
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    marginBottom: "30px",
-                  }}
-                >
+                <div className={s.noProductText}>
                   <p>No hay productos para mostrar en este momento</p>
                 </div>
               )}

@@ -1,8 +1,17 @@
 import React from 'react'
 import banner from "../assets/banner_listado.png";
-import s from "./Banner.module.css"
+import s from "./Banner.module.css";
+import { orderProducts } from '../Store/actions';
+import { useDispatch } from "react-redux";
 
 export default function Banner() {
+  const dispatch = useDispatch();
+
+  function onSelectChange(e) {
+    e.preventDefault();
+    dispatch(orderProducts(e.target.value))
+}
+
   return (
     <div className={s.container}>
         <img className={s.banner} src={banner} alt="banner" />
@@ -12,8 +21,8 @@ export default function Banner() {
                 <option value="none" disabled selected>Filtrar</option>
                 <option value="2">2</option>
             </select>
-            <select className={s.selectOrder}>
-                <option value="none" disabled selected>Ordenar por</option>
+            <select className={s.selectOrder} onChange={(e) => onSelectChange(e)}>
+                <option value="ALL" disabled selected>Ordenar por</option>
                 <option value="DESCENDENTE">Mayor valor</option>
                 <option value="ASCENDENTE">Menor valor</option>
             </select>
