@@ -9,8 +9,6 @@ export default function ProductsGrid() {
   const products = useSelector((state) => state.orderedProducts);
   const dispatch = useDispatch();
 
-  console.log('products', products)
-
   useEffect(() => {
     dispatch(getProducts());
 }, [dispatch])
