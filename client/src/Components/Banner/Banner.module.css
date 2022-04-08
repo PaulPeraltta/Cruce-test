@@ -76,6 +76,7 @@
         margin-top: 20px;
     }
     .miniNav {
+        width: 100vw;
         flex-direction: column;
     }
     .selectFilter {
